@@ -13,8 +13,8 @@ Project Root
           ├── main.scss // main content
           ├── footer.scss // footer content
     ├── img // images used in the entire project
-          ├── logo-1 // navigation logo
-          ├── eli-5.jpg // profile avatar
+          ├── ../img/background-image-medium.jpg // background image
+          ├── 
 
 
 
