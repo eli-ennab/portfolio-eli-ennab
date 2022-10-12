@@ -1,0 +1,21 @@
+Project Root
+└── src
+    └── projectRoot.readme // table of contents
+    ├── html
+          ├── index.html // all html content
+    ├── css 
+          ├──  style.min.css // compressed css style sheet
+    ├── sass
+          ├── style.scss // main sass sheet
+          ├── config.scss // configuration colors, fonts etcetera
+          ├── nav.scss // main navigation
+          ├── header.scss // header content
+          ├── main.scss // main content
+          ├── footer.scss // footer content
+    ├── img // images used in the entire project
+          ├── logo-1 // navigation logo
+          ├── eli-5.jpg // profile avatar
+
+
+
+     

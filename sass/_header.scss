@@ -1,0 +1,47 @@
+// Mobile first (search for 'Medium and large screen' for additional media queries)
+.about-container {
+  margin-top: 50px;
+  background-color: none;
+  padding: 5px;
+}
+
+.about-col-1,
+.about-col-2,
+.about-col-3 {
+  padding: 5px;
+}
+
+// All font
+h2,
+h3,
+p {
+  background-color: white;
+  color: black;
+}
+
+h2,
+h3 {
+  display: inline;
+  font-family: $major-mono-display;
+  font-size: 1.2rem;
+}
+
+p {
+  font-family: $inconsolata;
+  font-size: 1rem;
+}
+
+// Medium and large screen
+@media screen and (min-width: 767px) {
+    // Fonts
+    h2,
+    h3,
+    h4 {
+      font-size: 2.4rem;
+    }
+
+    p {
+      font-size: 2rem;
+    }
+
+}

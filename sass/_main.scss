@@ -1,0 +1,100 @@
+// Mobile first (search for 'Medium and large screen' for additional media queries)
+.main-container {
+    padding: 5px;
+}
+
+.main-col-1,
+.main-col-2,
+.main-col-3,
+.main-col-4 {
+    padding: 5px;
+}
+
+// Font
+h4 {
+    display: inline;
+    font-size: 1.2rem;
+    font-family: $major-mono-display;
+}
+
+p {
+    font-family: $inconsolata;
+}
+
+h4,
+p {
+    background-color: white;
+    color: black;
+}
+
+// Lists and links
+ul {
+    display: inline;
+}
+
+li {
+    list-style-type: none;
+    font-family: $inconsolata;
+    background-color: white;
+    color: black;
+}
+
+a {
+    font-family: $inconsolata;
+    color: black;
+    background-color: white;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+    background-color: black;
+}
+
+a:active {
+    background-color: white;
+    color: black;
+  }
+
+.underline-links {
+    background-color: black;
+    color: white;
+}
+
+// Medium and large screen
+@media screen and (min-width: 767px) {
+
+    // Fonts
+    h4 {
+        font-size: 2.4rem;
+    }
+    
+    li {
+        list-style-type: none;
+    font-family: "Inconsolata",monospace;
+    background-color: #fff;
+    color: #000;
+    font-size: 2rem;
+    }
+
+    // Right navigation bar
+    .navbar {
+        display: flex;
+        flex-direction: column;
+        //height: 50vh;
+        //gap: 8px;
+        ul {
+            writing-mode: vertical-rl;
+        }
+    
+        li {
+            font-size: 2rem;
+        }
+        a {
+            font-size: 2rem;
+        }
+    }
+}

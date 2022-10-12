@@ -1,0 +1,41 @@
+// Mobile first (search for 'Medium and large screen' for additional media queries)
+nav {
+    display: flex;
+    position: fixed;
+    align-items: center;
+    top: 0;
+    width: 100vw;
+    height: 40px;
+    background-color: $secondary-color;
+}
+
+.navbar {
+    display: none;
+}
+
+h1 {
+    margin: 0 10px;
+    font-family: $major-mono-display;
+    display: inline;
+    text-align: left;
+    font-size: 1rem;
+    padding: 2px;
+}
+
+// Medium and large screen
+@media screen and (min-width: 767px) {
+
+nav {
+    display: flex;
+    align-items: center;
+    top: 0;
+    width: 100vw;
+    height: 40px;
+    background-color: #d6d3d0;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+}
