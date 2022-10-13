@@ -6,8 +6,8 @@ nav {
     top: 0;
     width: 100vw;
     height: 40px;
-    border-bottom: 2px solid white;
-    //background-color: $secondary-color;
+    border-bottom: 2px solid $primary-color;
+    background-color: $primary-color;
 }
 
 .navbar {
@@ -16,8 +16,8 @@ nav {
 
 h1 {
     margin: 0 10px;
-    font-family: $major-mono-display;
-    color: white;
+    font-family: $inconsolata;
+    color: $secondary-color;
     display: inline;
     text-align: left;
     font-size: 1rem;

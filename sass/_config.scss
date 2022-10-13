@@ -1,20 +1,21 @@
 // Google Fonts
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Monofett&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap');
+
 
 // Font Variables
-$roboto-light: 'Roboto Condensed', sans-serif;   
-$roboto-condensed: 'Roboto Condensed', sans-serif;
+
 $monofett-cursive: 'Monofett', cursive;
 $major-mono-display: 'Major Mono Display', monospace;
 $inconsolata: 'Inconsolata', monospace;
+$space-mono: 'Space Mono', monospace;
+
 
 // Colors
-$primary-color: rgb(74, 106, 147);
-$secondary-color: rgb(214, 211, 208);
+$primary-color: white;
+$secondary-color: black;
 
 // Media Queries
 @mixin respond($breakpoint) {

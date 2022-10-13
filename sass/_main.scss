@@ -12,20 +12,13 @@
     //background: url(../img/textur-1-small-ljus.jpg);
 }
 
-.contact-information {
-    display: flex;
-    justify-content: space-between;
-}
-
-.profile-picture {
-    border-radius: 50%;
-}
-
 // Font
 h4 {
     display: inline;
+    background-color: none;
     font-size: 1.2rem;
-    font-family: $major-mono-display;
+    font-family: $space-mono;
+    text-transform: uppercase;
 }
 
 p {
@@ -46,15 +39,15 @@ ul {
 li {
     list-style-type: none;
     font-family: $inconsolata;
-    background-color: white;
-    color: black;
-    width: 60vw;
+    background-color: $primary-color;
+    color: $secondary-color;
+    width: 100%;
 }
 
 a {
     font-family: $inconsolata;
-    color: black;
-    background-color: white;
+    color: $secondary-color;
+    background-color: $primary-color;
 }
 
 a:link {
@@ -62,18 +55,18 @@ a:link {
 }
 
 a:hover {
-    color: white;
-    background-color: black;
+    color: $primary-color;
+    background-color: $secondary-color;
 }
 
 a:active {
-    background-color: white;
-    color: black;
+    background-color: $primary-color;
+    color: $secondary-color;
   }
 
 .underline-links {
-    background-color: black;
-    color: white;
+    color: $primary-color;
+    background-color: $secondary-color;
 }
 
 // Medium and large screen
@@ -89,8 +82,8 @@ a:active {
     li {
     list-style-type: none;
     font-family: "Inconsolata",monospace;
-    background-color: #fff;
-    color: #000;
+    background-color: $primary-color;
+    color: $secondary-color;
     font-size: 2rem;
     }
 }
