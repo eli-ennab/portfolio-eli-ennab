@@ -9,6 +9,7 @@
 .about-col-2,
 .about-col-3 {
   padding: 5px;
+  background: url(../img/textur-1-small-ljus.jpg);
 }
 
 // All font
@@ -56,22 +57,20 @@ p {
     }
 
     .about-col-1 {
-      background: url(../img/textur-2.jpg);
+      background: url(../img/textur-1-small-ljus.jpg);
       width: 100%;
       height: 100vh;
       margin: 0;
-      border: 1px solid $secondary-color;
       width: 45vw;
       height: 40vh;
       margin-left: 2.5vh;
     }
     
     .about-col-2 {
-      background: url(../img/textur-3.jpg);
+      background: url(../img/textur-1-small-ljus.jpg);
       width: 100%;
       height: 100vh;
       margin: 0;
-      border: 1px solid $secondary-color;
       width: 45vw;
       height: 40vh;
       margin-top: -20%;
@@ -79,11 +78,10 @@ p {
     }
 
     .about-col-3 {
-      background: url(../img/textur-2.jpg);
+      background: url(../img/textur-1-small-ljus.jpg);
       width: 100%;
       height: 100vh;
       margin: 0;
-      border: 1px solid $secondary-color;
       width: 42vw;
       height: 40vh;
       margin-left: 10vh;
