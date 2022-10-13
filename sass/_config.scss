@@ -19,6 +19,9 @@ $secondary-color: black;
 
 // Media Queries
 @mixin respond($breakpoint) {
+  @if $breakpoint == largest {
+    @media (min-width: 1300px) { @content };
+  }
   @if $breakpoint == large {
     @media (min-width: 1023px) { @content };
   }

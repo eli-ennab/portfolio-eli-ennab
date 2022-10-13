@@ -91,12 +91,14 @@ a:active {
 // Large screen
 @media screen and (min-width: 1023px) {
 
+main {
+    margin-top: 40vh;
+}
     // Col sizing and positioning
-
-    .main-container {
-      padding: 5px 5px 60px 5px;
-    }
 /*
+    .main-container {
+    }
+
     .main-col-1 {
       width: 100%;
       height: 50vh;
@@ -124,4 +126,12 @@ a:active {
         border: 1px solid $primary-color;
     }
     */
+}
+
+// Largest screen
+@media screen and (min-width: 1300px) {
+
+    main {
+        margin-top: 60vh;
+    }
 }

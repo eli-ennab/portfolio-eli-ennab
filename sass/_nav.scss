@@ -1,5 +1,6 @@
 // Mobile first (search for 'Medium and large screen' for additional media queries)
 nav {
+    z-index: 1;
     display: flex;
     position: fixed;
     align-items: center;

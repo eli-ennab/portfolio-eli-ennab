@@ -13,9 +13,12 @@
     }
 
     body {
-        background: url(../img/background-image_small.jpg) repeat;
+        background: url(../img/background-image_768px.jpg) repeat;
         @include respond(medium) {
             background: url(../img/background-image_1700px.jpg) repeat;
+        }
+        @include respond(large) {
+            background: url(../img/background-image_2000px.jpg) repeat;
         }
         width: 100%;
         height: 100vh;
