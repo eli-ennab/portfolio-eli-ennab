@@ -1,7 +1,6 @@
-// Mobile first (search for 'Medium and large screen' for additional media queries)
+// Mobile first (additional media queries for medium, large and largest screen)
 footer {
     bottom: 0;
-    //width: 100vw;
     width: 100%;
     height: 40px;
     position: sticky;
@@ -24,7 +23,7 @@ a {
 // Medium and large screen
 @media screen and (min-width: 767px) {
 
-    // Fonts
+// Fonts
     p,
     a {
         font-size: 1.5rem;

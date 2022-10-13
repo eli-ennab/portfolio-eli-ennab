@@ -1,4 +1,4 @@
-// Mobile first (search for 'Medium and large screen' for additional media queries)
+// Mobile first (additional media queries for medium, large and largest screen)
 .main-container {
     padding: 5px;
 }
@@ -69,106 +69,130 @@ a:active {
     background-color: $secondary-color;
 }
 
-// Medium and large screen
+// Medium screen
 @media screen and (min-width: 767px) {
 
-    // Col sizing and positioning
-
-    // Fonts
-    p,
-    a {
-      font-size: 1rem;
-    }
-    h2,
-    h3,
-    h4 {
-      font-size: 1.2rem;
-    }
-    li {
+// Fonts
+p,
+a {
+    font-size: 1rem;
+}
+h2,
+h3,
+h4 {
+    font-size: 1.2rem;
+}
+li {
     list-style-type: none;
     font-family: "Inconsolata",monospace;
     background-color: $primary-color;
     color: $secondary-color;
     font-size: 2rem;
+}
+// Columns and sections
+.main-container {
+    width: 100%;
+    .main-col-1 {
+    margin-left: 10%;
+    width: 80%;
+    border-right: 1px solid $primary-color;
+    border-bottom: 1px solid $primary-color;
+    padding: 10px;
     }
-    // Columns and sections
-    .main-container {
-        width: 100%;
-        .main-col-1 {
-          margin-left: 10%;
-          width: 80%;
-          border-right: 1px solid $primary-color;
-          border-bottom: 1px solid $primary-color;
-          padding: 10px;
-        }
-        .main-col-2 {
-            margin-left: 10%;
-          width: 80%;
-          border-left: 1px solid $primary-color;
-          border-bottom: 1px solid $primary-color;
-          padding: 10px;
-        }
-        .main-col-3 {
-          margin-left: 10%;
-          width: 80%;
-          border-right: 1px solid $primary-color;
-          border-bottom: 1px solid $primary-color;
-          padding: 10px;
-          margin-bottom: 30px;
-        }
-        .main-col-4 {
-            margin-left: 10%;
-            left: 5;
-            width: 80%;
-            padding: 10px;
-          }
-      }
+    .main-col-2 {
+    margin-left: 10%;
+    width: 80%;
+    border-left: 1px solid $primary-color;
+    border-bottom: 1px solid $primary-color;
+    padding: 10px;
+    }
+    .main-col-3 {
+    margin-left: 10%;
+    width: 80%;
+    border-right: 1px solid $primary-color;
+    border-bottom: 1px solid $primary-color;
+    padding: 10px;
+    margin-bottom: 30px;
+    }
+    .main-col-4 {
+    margin-left: 10%;
+    left: 5;
+    width: 80%;
+    padding: 10px;
+    }
+  }
 }
 
 // Large screen
 @media screen and (min-width: 1023px) {
 
-main {
-    margin-top: 40vh;
-}
-    // Col sizing and positioning
-    .main-container {
-        width: 100%;
-        .main-col-1 {
-          margin-left: 10%;
-          width: 80%;
-          border-right: 1px solid $primary-color;
-          border-bottom: 1px solid $primary-color;
-          padding: 10px;
-        }
-        .main-col-2 {
-            margin-left: 10%;
-          width: 80%;
-          border-left: 1px solid $primary-color;
-          border-bottom: 1px solid $primary-color;
-          padding: 10px;
-        }
-        .main-col-3 {
-          margin-left: 10%;
-          width: 80%;
-          border-right: 1px solid $primary-color;
-          border-bottom: 1px solid $primary-color;
-          padding: 10px;
-          margin-bottom: 30px;
-        }
-        .main-col-4 {
-            margin-left: 10%;
-            left: 5;
-            width: 80%;
-            padding: 10px;
-          }
-      }
+// Columns and sections
+.main-container {
+    width: 100%;
+    .main-col-1 {
+    margin-left: 10%;
+    width: 80%;
+    border-right: 1px solid $primary-color;
+    border-bottom: 1px solid $primary-color;
+    padding: 10px;
+    }
+    .main-col-2 {
+    margin-left: 10%;
+    width: 80%;
+    border-left: 1px solid $primary-color;
+    border-bottom: 1px solid $primary-color;
+    padding: 10px;
+    }
+    .main-col-3 {
+    margin-left: 10%;
+    width: 80%;
+    border-right: 1px solid $primary-color;
+    border-bottom: 1px solid $primary-color;
+    padding: 10px;
+    margin-bottom: 30px;
+    }
+    .main-col-4 {
+    margin-left: 10%;
+    left: 5;
+    width: 80%;
+    padding: 10px;
+    }
+  }
 }
 
 // Largest screen
 @media screen and (min-width: 1300px) {
 
-    main {
-        margin-top: 60vh;
+// Columns and sections
+.main-container {
+    width: 100%;
+    .main-col-1 {
+    margin-left: 10%;
+    width: 80%;
+    border-right: 1px solid $primary-color;
+    border-bottom: 1px solid $primary-color;
+    padding: 10px;
     }
+    .main-col-2 {
+    margin-left: 10%;
+    width: 80%;
+    border-left: 1px solid $primary-color;
+    border-bottom: 1px solid $primary-color;
+    padding: 10px;
+    }
+    .main-col-3 {
+    margin-left: 10%;
+    width: 80%;
+    border-right: 1px solid $primary-color;
+    border-bottom: 1px solid $primary-color;
+    padding: 10px;
+    margin-bottom: 30px;
+    }
+    .main-col-4 {
+    margin-left: 10%;
+    left: 5;
+    width: 80%;
+    padding: 10px;
+    }
+  }
 }

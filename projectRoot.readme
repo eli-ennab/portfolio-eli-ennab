@@ -13,8 +13,9 @@ Project Root
           ├── main.scss // main content
           ├── footer.scss // footer content
     ├── img // images used in the entire project
-          ├── ../img/background-image-medium.jpg // background image
-          ├── 
+          ├── background images (768px, 1700px, 2000px)
+          ├── front page logo 'front end developer' (small and medium)
+          ├── multiple favicon for android and apple 
 
 
 
