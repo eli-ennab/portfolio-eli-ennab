@@ -6,7 +6,8 @@ nav {
     top: 0;
     width: 100vw;
     height: 40px;
-    background-color: $secondary-color;
+    border-bottom: 2px solid white;
+    //background-color: $secondary-color;
 }
 
 .navbar {
@@ -16,6 +17,7 @@ nav {
 h1 {
     margin: 0 10px;
     font-family: $major-mono-display;
+    color: white;
     display: inline;
     text-align: left;
     font-size: 1rem;
@@ -25,17 +27,27 @@ h1 {
 // Medium and large screen
 @media screen and (min-width: 767px) {
 
-nav {
+.navigation {
     display: flex;
-    align-items: center;
-    top: 0;
-    width: 100vw;
-    height: 40px;
-    background-color: #d6d3d0;
+    width: 100%;
+    justify-content: space-between;
 }
 
 h1 {
-    font-size: 2rem;
+    font-size: 1.5rem;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+    a {
+        font-size: 1rem;
+        margin: 5px;
+        @include respond(large) {
+            font-size: 1.5rem;
+          }
+    }
 }
 
 }

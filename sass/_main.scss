@@ -8,7 +8,8 @@
 .main-col-3,
 .main-col-4 {
     padding: 5px;
-    background: url(../img/textur-1-small-ljus.jpg);
+    margin-top: 30px;
+    //background: url(../img/textur-1-small-ljus.jpg);
 }
 
 // Font
@@ -81,20 +82,5 @@ a:active {
     background-color: #fff;
     color: #000;
     font-size: 2rem;
-    }
-
-    // Right navigation bar
-    .navbar {
-        display: flex;
-        flex-direction: column;
-        ul {
-            writing-mode: vertical-rl;
-        }
-        li {
-            font-size: 2rem;
-        }
-        a {
-            font-size: 2rem;
-        }
     }
 }
