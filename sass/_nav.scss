@@ -32,6 +32,7 @@ h1 {
     display: flex;
     width: 100%;
     justify-content: space-between;
+    margin: 30px;
 }
 h1 {
     font-size: 1.5rem;
@@ -39,7 +40,6 @@ h1 {
 .navbar {
     display: flex;
     align-items: center;
-    margin-right: 10px;
     a {
     font-size: 1rem;
     margin: 5px;
