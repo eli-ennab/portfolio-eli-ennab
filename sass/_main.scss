@@ -12,6 +12,15 @@
     //background: url(../img/textur-1-small-ljus.jpg);
 }
 
+.contact-information {
+    display: flex;
+    justify-content: space-between;
+}
+
+.profile-picture {
+    border-radius: 50%;
+}
+
 // Font
 h4 {
     display: inline;
@@ -39,6 +48,7 @@ li {
     font-family: $inconsolata;
     background-color: white;
     color: black;
+    width: 60vw;
 }
 
 a {
