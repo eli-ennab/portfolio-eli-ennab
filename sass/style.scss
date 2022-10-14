@@ -56,3 +56,7 @@ body {
     color: $primary-color;
     background-color: $secondary-color;
 }
+/* Non visable headings for sections */
+.heading-non-visable {
+    display: none;
+}
