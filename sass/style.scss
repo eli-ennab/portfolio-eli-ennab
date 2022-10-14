@@ -4,6 +4,18 @@
 @import 'main';
 @import 'footer';
 
+// Mobile first (additional media queries exist further down for larger screens)
+
+/*-------------------------------------------*\
+   _style.scss
+ 
+   Index
+   - * rule for everything
+   - Html
+   - Body (background images, common rules and alternative design)
+   - Some basic styling throughout the page
+\*-------------------------------------------*/
+
 * {
     box-sizing: border-box;
 }
@@ -30,12 +42,16 @@ body {
 }
 
 // Styling throughout the page
+
+/* The div that diverses */
 .apart {
      border: .5px solid $primary-color;
 }
+/* The span slash throughout the html */
 .slash {
     color: $secondary-color;
 }
+/* Styling for the minor <p> and <a>-headings inside of different sections */
 .underline {
     color: $primary-color;
     background-color: $secondary-color;

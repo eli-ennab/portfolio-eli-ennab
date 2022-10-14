@@ -1,4 +1,16 @@
-// Mobile first (additional media queries for medium, large and largest screen)
+// Mobile first (additional media queries may exist further down for larger screens)
+
+/*-------------------------------------------*\
+   _footer.scss
+ 
+   Index
+   - Section
+   - Font
+   - Font for medium screens and up 
+\*-------------------------------------------*/
+
+// Section
+
 footer {
     bottom: 0;
     width: 100%;
@@ -15,6 +27,8 @@ footer {
     padding: 0px 30px 0px 30px;
 }
 
+
+// Font
 p,
 a {
     font-size: 1rem;
@@ -23,7 +37,7 @@ a {
 // Medium and large screen
 @media screen and (min-width: 767px) {
 
-// Fonts
+// Font
     p,
     a {
         font-size: 1.5rem;

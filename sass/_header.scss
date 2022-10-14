@@ -1,4 +1,17 @@
-// Mobile first (additional media queries for medium, large and largest screen)
+// Mobile first (additional media queries may exist further down for larger screens)
+
+/*-------------------------------------------*\
+   _header.scss
+ 
+   Index
+   - Front page design
+   - Sections
+   - Font
+   - Font for largest (> 1300px) screens
+\*-------------------------------------------*/
+
+// Front page design
+
 .frontpage {
   display: flex;
   flex-direction: column;
@@ -16,6 +29,8 @@
   display: flex;
   justify-content: center;
 }
+
+// Sections
 
 .about-container {
   width: 100%;
@@ -43,7 +58,7 @@
   }
 }
 
-// All font
+// Font
 h2,
 h3,
 p {
