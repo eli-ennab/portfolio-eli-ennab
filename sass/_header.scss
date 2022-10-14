@@ -20,25 +20,25 @@
 .about-container {
   width: 100%;
   .about-col-1 {
-  margin-left: 10vw;
+    margin-left: 5vw;
     width: 80vw;
-    border-right: 1px solid $primary-color;
-    border-bottom: 1px solid $primary-color;
+    border-right: 1px solid $border-color;
+    border-bottom: 1px solid $border-color;
     padding: 10px;
   }
   .about-col-2 {
     margin-left: 5vw;
-    width: 90vw;
-    border-left: 1px solid $primary-color;
-    border-bottom: 1px solid $primary-color;
+    width: 85vw;
+    border-left: 1px solid $border-color;
+    border-bottom: 1px solid $border-color;
     padding: 10px;
   }
   .about-col-3 {
-    margin-left: 45vw;
+    margin-left: 40vw;
     left: 50vw;
     width: 50vw;
-    border-right: 1px solid $primary-color;
-    border-bottom: 1px solid $primary-color;
+    border-right: 1px solid $border-color;
+    //border-bottom: 1px solid $primary-color;
     padding: 10px;
   }
 }
@@ -84,7 +84,7 @@ p {
 // Fonts
 
 // Columns and sections
-.about-container {
+/*.about-container {
     width: 100%;
     .about-col-1 {
     margin-left: 10vw;
@@ -108,13 +108,13 @@ p {
     border-bottom: 1px solid $primary-color;
     padding: 10px;
     }
-  }
+  }*/
 }
 
 // Large screen
 @media screen and (min-width: 1023px) {
 // Columns and sections
-.about-container {
+/*.about-container {
     width: 100%;
     .about-col-1 {
     margin-left: 10vw;
@@ -138,7 +138,7 @@ p {
       border-bottom: 1px solid $primary-color;
       padding: 10px;
     }
-  }
+  }*/
 }
 
 // Largest screen
@@ -154,7 +154,7 @@ h3 {
 }
 
 // Columns and sections
-.about-container {
+/*.about-container {
     width: 100%;
     .about-col-1 {
     margin-left: 10vw;
@@ -178,5 +178,5 @@ h3 {
     border-bottom: 1px solid $primary-color;
     padding: 10px;
     }
-  }
+  }*/
 }

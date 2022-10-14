@@ -16,6 +16,7 @@ $space-mono: 'Space Mono', monospace;
 // Colors
 $primary-color: white;
 $secondary-color: black;
+$border-color: white;
 
 // Media Queries
 @mixin respond($breakpoint) {

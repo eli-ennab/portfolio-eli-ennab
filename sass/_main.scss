@@ -18,30 +18,28 @@
     .main-col-1 {
     margin-left: 10%;
     width: 80%;
-    border-right: 1px solid $primary-color;
-    border-bottom: 1px solid $primary-color;
+    border-right: 1px solid $border-color;
+    border-bottom: 1px solid $border-color;
     padding: 10px;
     }
     .main-col-2 {
     margin-left: 10%;
     width: 80%;
-    border-left: 1px solid $primary-color;
-    border-bottom: 1px solid $primary-color;
+    border-left: 1px solid $border-color;
+    border-bottom: 1px solid $border-color;
     padding: 10px;
     }
     .main-col-3 {
     margin-left: 10%;
     width: 80%;
-    border-right: 1px solid $primary-color;
-    border-bottom: 1px solid $primary-color;
+    border-right: 1px solid $border-color;
     padding: 10px;
-    margin-bottom: 30px;
     }
     .main-col-4 {
-    margin-left: 10%;
-    left: 5;
-    width: 80%;
+    margin-left: 5%;
+    width: 90%;
     padding: 10px;
+    border-left: 1px solid $border-color;
     }
   }
 
@@ -123,7 +121,7 @@ li {
     font-size: 2rem;
 }
 // Columns and sections
-.main-container {
+/*.main-container {
     width: 100%;
     .main-col-1 {
     margin-left: 10%;
@@ -153,14 +151,14 @@ li {
     width: 80%;
     padding: 10px;
     }
-  }
+  }*/
 }
 
 // Large screen
 @media screen and (min-width: 1023px) {
 
 // Columns and sections
-.main-container {
+/*.main-container {
     width: 100%;
     .main-col-1 {
     margin-left: 10%;
@@ -190,14 +188,14 @@ li {
     width: 80%;
     padding: 10px;
     }
-  }
+  }*/
 }
 
 // Largest screen
 @media screen and (min-width: 1300px) {
 
 // Columns and sections
-.main-container {
+/*.main-container {
     width: 100%;
     .main-col-1 {
     margin-left: 10%;
@@ -227,5 +225,5 @@ li {
     width: 80%;
     padding: 10px;
     }
-  }
+  }*/
 }

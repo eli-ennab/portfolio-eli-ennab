@@ -14,7 +14,7 @@ html {
 
 body {
 // Background image is roughly edited in GIMP, originally taken from https://unsplash.com/@nasa
-    background: url(../img/background-image_768px.jpg) repeat;
+    background: url(../img/background-alternative_800px.jpg) repeat;
     @include respond(medium) {
         background: url(../img/background-image_1700px.jpg) repeat;
     }
@@ -25,6 +25,8 @@ body {
     height: 100vh;
     margin: 0;
     scroll-behavior: smooth;
+// Alternative background design
+    //background-color: black;
 }
 
 // Styling throughout the page
