@@ -18,6 +18,33 @@
 }
 
 .about-container {
+  width: 100%;
+  .about-col-1 {
+  margin-left: 10vw;
+    width: 80vw;
+    border-right: 1px solid $primary-color;
+    border-bottom: 1px solid $primary-color;
+    padding: 10px;
+  }
+  .about-col-2 {
+    margin-left: 5vw;
+    width: 90vw;
+    border-left: 1px solid $primary-color;
+    border-bottom: 1px solid $primary-color;
+    padding: 10px;
+  }
+  .about-col-3 {
+    margin-left: 45vw;
+    left: 50vw;
+    width: 50vw;
+    border-right: 1px solid $primary-color;
+    border-bottom: 1px solid $primary-color;
+    padding: 10px;
+  }
+}
+
+/*
+.about-container {
   margin-top: 50px;
   background-color: none;
   padding: 5px;
@@ -29,7 +56,7 @@
   padding: 5px;
   //background: url(../img/textur-1-small-ljus.jpg);
   margin-bottom: 30px;
-}
+}*/
 
 // All font
 h2,

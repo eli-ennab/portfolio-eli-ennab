@@ -1,5 +1,5 @@
 // Mobile first (additional media queries for medium, large and largest screen)
-.main-container {
+/*.main-container {
     padding: 5px;
 }
 
@@ -10,7 +10,40 @@
     padding: 5px;
     margin-top: 30px;
     //background: url(../img/textur-1-small-ljus.jpg);
-}
+}*/
+
+// Columns and sections
+.main-container {
+    width: 100%;
+    .main-col-1 {
+    margin-left: 10%;
+    width: 80%;
+    border-right: 1px solid $primary-color;
+    border-bottom: 1px solid $primary-color;
+    padding: 10px;
+    }
+    .main-col-2 {
+    margin-left: 10%;
+    width: 80%;
+    border-left: 1px solid $primary-color;
+    border-bottom: 1px solid $primary-color;
+    padding: 10px;
+    }
+    .main-col-3 {
+    margin-left: 10%;
+    width: 80%;
+    border-right: 1px solid $primary-color;
+    border-bottom: 1px solid $primary-color;
+    padding: 10px;
+    margin-bottom: 30px;
+    }
+    .main-col-4 {
+    margin-left: 10%;
+    left: 5;
+    width: 80%;
+    padding: 10px;
+    }
+  }
 
 // Font
 h4 {
