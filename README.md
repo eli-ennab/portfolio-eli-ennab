@@ -1,5 +1,5 @@
 # portfolio-eli-ennab
-## ! work in progress !
+## The first individual task in the basic HTML and CSS course.
 ### url: https://eli-ennab.netlify.app/
 #### images below: screenshots from larger than 767px and smaller than 767px
 ![larger than 768px](https://user-images.githubusercontent.com/113445468/195859812-9977f4b6-2747-4efb-8157-e9088d1fa14d.jpg)
